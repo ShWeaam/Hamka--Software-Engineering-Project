@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.Controller">
+   <center>
+      <GridPane fx:id="gridPane" disable="true" maxHeight="550.0" maxWidth="550.0" prefHeight="550.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane fx:id="pane05" focusTraversable="true" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="0" GridPane.rowIndex="5">
+               <children>
+                  <ImageView fx:id="w05" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b05" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ05" fitHeight="67.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ05" fitHeight="72.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane16" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="1" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="w16" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b16" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ16" fitHeight="67.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ16" fitHeight="69.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane25" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="2" GridPane.rowIndex="5">
+               <children>
+                  <ImageView fx:id="w25" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b25" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ25" fitHeight="74.0" fitWidth="68.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ25" fitHeight="72.0" fitWidth="90.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane27" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="2" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="w27" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b27" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ27" fitHeight="80.0" fitWidth="70.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ27" fitHeight="74.0" fitWidth="72.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane07" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="0" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="w07" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b07" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ07" fitHeight="70.0" fitWidth="69.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ07" fitHeight="72.0" fitWidth="74.0" layoutX="-2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="pane14" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="w14" fitHeight="50.0" fitWidth="100.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b14" fitHeight="50.0" fitWidth="57.0" layoutX="11.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ14" fitHeight="72.0" fitWidth="70.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ14" fitHeight="75.0" fitWidth="70.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane23" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="w23" fitHeight="50.0" fitWidth="100.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b23" fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ23" fitHeight="70.0" fitWidth="79.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ23" fitHeight="73.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane12" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="w12" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b12" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ12" fitHeight="74.0" fitWidth="71.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ12" fitHeight="67.0" fitWidth="67.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane10" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="1" GridPane.rowIndex="0">
+               <children>
+                  <ImageView fx:id="w10" fitHeight="50.0" fitWidth="100.0" layoutX="11.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b10" fitHeight="50.0" fitWidth="57.0" layoutX="7.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ10" fitHeight="77.0" fitWidth="69.0" layoutX="1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ10" fitHeight="73.0" fitWidth="70.0" layoutX="-1.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane21" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="w21" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b21" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ21" fitHeight="71.0" fitWidth="75.0" layoutX="-1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ21" fitHeight="74.0" fitWidth="68.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane30" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="3" GridPane.rowIndex="0">
+               <children>
+                  <ImageView fx:id="w30" fitHeight="50.0" fitWidth="100.0" layoutX="11.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b30" fitHeight="50.0" fitWidth="57.0" layoutX="7.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ30" fitHeight="74.0" fitWidth="68.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ30" fitHeight="69.0" fitWidth="69.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane32" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="w32" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b32" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ32" fitHeight="71.0" fitWidth="82.0" layoutX="-2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ32" fitHeight="71.0" fitWidth="71.0" layoutX="1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane34" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="w34" fitHeight="50.0" fitWidth="100.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b34" fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ34" fitHeight="82.0" fitWidth="78.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ34" fitHeight="78.0" fitWidth="70.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane36" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="3" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="w36" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b36" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ36" fitHeight="74.0" fitWidth="70.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ36" fitHeight="69.0" fitWidth="74.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane41" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="4" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="w41" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b41" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ41" fitHeight="69.0" fitWidth="69.0" layoutX="1.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ41" fitHeight="72.0" fitWidth="69.0" layoutX="1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane45" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="4" GridPane.rowIndex="5">
+               <children>
+                  <ImageView fx:id="w45" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b45" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ45" fitHeight="74.0" fitWidth="67.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ45" fitHeight="70.0" fitWidth="72.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="pane47" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="4" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="w47" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b47" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ47" fitHeight="68.0" fitWidth="70.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ47" fitHeight="65.0" fitWidth="66.0" layoutX="2.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane50" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="5" GridPane.rowIndex="0">
+               <children>
+                  <ImageView fx:id="w50" fitHeight="50.0" fitWidth="100.0" layoutX="11.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b50" fitHeight="50.0" fitWidth="57.0" layoutX="7.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ50" fitHeight="64.0" fitWidth="62.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ50" fitHeight="65.0" fitWidth="68.0" layoutX="2.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane52" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="5" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="w52" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b52" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ52" fitHeight="65.0" fitWidth="69.0" layoutX="2.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ52" fitHeight="59.0" fitWidth="60.0" layoutX="6.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane54" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="5" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="w54" fitHeight="50.0" fitWidth="100.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b54" fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ54" fitHeight="59.0" fitWidth="65.0" layoutX="4.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ54" fitHeight="56.0" fitWidth="55.0" layoutX="7.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane56" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="5" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="w56" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b56" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ56" fitHeight="71.0" fitWidth="68.0" layoutX="5.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ56" fitHeight="57.0" fitWidth="61.0" layoutX="6.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane61" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="6" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="w61" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b61" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ61" fitHeight="52.0" fitWidth="55.0" layoutX="10.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ61" fitHeight="47.0" fitWidth="56.0" layoutX="7.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane63" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="6" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="w63" fitHeight="50.0" fitWidth="100.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b63" fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ63" fitHeight="55.0" fitWidth="63.0" layoutX="6.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ63" fitHeight="55.0" fitWidth="47.0" layoutX="9.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane65" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="6" GridPane.rowIndex="5">
+               <children>
+                  <ImageView fx:id="w65" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b65" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ65" fitHeight="47.0" fitWidth="47.0" layoutX="11.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ65" fitHeight="67.0" fitWidth="67.0" layoutX="8.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane67" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="6" GridPane.rowIndex="7">
+               <children>
+                  <ImageView fx:id="w67" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b67" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ67" fitHeight="47.0" fitWidth="66.0" layoutX="2.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ67" fitHeight="46.0" fitWidth="67.0" layoutX="5.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane70" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="7" GridPane.rowIndex="0">
+               <children>
+                  <ImageView fx:id="w70" fitHeight="50.0" fitWidth="100.0" layoutX="11.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b70" fitHeight="50.0" fitWidth="57.0" layoutX="7.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ70" fitHeight="47.0" fitWidth="54.0" layoutX="12.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ70" fitHeight="46.0" fitWidth="54.0" layoutX="7.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane72" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="7" GridPane.rowIndex="2">
+               <children>
+                  <ImageView fx:id="w72" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b72" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ72" fitHeight="47.0" fitWidth="54.0" layoutX="22.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ72" fitHeight="46.0" fitWidth="46.0" layoutX="-5.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane74" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="7" GridPane.rowIndex="4">
+               <children>
+                  <ImageView fx:id="w74" fitHeight="50.0" fitWidth="100.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b74" fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ74" fitHeight="52.0" fitWidth="55.0" layoutX="20.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ74" fitHeight="47.0" fitWidth="56.0" layoutX="17.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane76" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="7" GridPane.rowIndex="6">
+               <children>
+                  <ImageView fx:id="w76" fitHeight="50.0" fitWidth="100.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b76" fitHeight="50.0" fitWidth="57.0" layoutX="9.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ76" fitHeight="52.0" fitWidth="52.0" layoutX="7.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ76" fitHeight="50.0" fitWidth="50.0" layoutX="12.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Pane fx:id="pane01" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="0" GridPane.rowIndex="1">
+               <children>
+                  <ImageView fx:id="w01" fitHeight="50.0" fitWidth="100.0" layoutX="10.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b01" fitHeight="50.0" fitWidth="57.0" layoutX="8.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ01" fitHeight="52.0" fitWidth="54.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ01" fitHeight="48.0" fitWidth="80.0" layoutX="7.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="pane03" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="0" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="w03" fitHeight="50.0" fitWidth="100.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b03" fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ03" fitHeight="52.0" fitWidth="54.0" layoutX="13.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ03" fitHeight="48.0" fitWidth="80.0" layoutX="17.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane fx:id="pane43" onMouseClicked="#mouseClicked" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #D0B4A0;" GridPane.columnIndex="4" GridPane.rowIndex="3">
+               <children>
+                  <ImageView fx:id="w43" fitHeight="50.0" fitWidth="100.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="b43" fitHeight="50.0" fitWidth="57.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="WQ43" fitHeight="70.0" fitWidth="50.0" layoutX="9.0" layoutY="11.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/WhiteQueen.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="BQ43" fitHeight="46.0" fitWidth="67.0" layoutX="15.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@../../resources/pics/BlackQueen.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
+   </center>
+   <right>
+      <Pane prefHeight="607.0" prefWidth="210.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button alignment="CENTER" layoutX="166.0" layoutY="14.0" minWidth="30.0" mnemonicParsing="false" onAction="#Exitbtn" prefHeight="30.0" prefWidth="30.0" style="-fx-background-radius: 22; -fx-background-color: #f93e44;" text="X" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Button alignment="TOP_LEFT" layoutX="125.0" layoutY="14.0" minWidth="29.0" mnemonicParsing="false" onAction="#returnToMainPage" prefHeight="29.0" prefWidth="30.0" style="-fx-background-radius: 22; -fx-background-color: ff9000;" text="B" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Pane layoutX="69.0" layoutY="7.0" prefHeight="45.0" prefWidth="45.0">
+               <children>
+                  <ImageView fx:id="microMuted" fitHeight="50.0" fitWidth="50.0" layoutX="-2.0" layoutY="-2.0" onMouseClicked="#onMouseClickMicroMuted" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@MicroMuted.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="micro" fitHeight="50.0" fitWidth="50.0" layoutX="-2.0" layoutY="-2.0" onMouseClicked="#onMouseClickMicro" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Micro.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="-37.0" layoutY="125.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #D0B4A0;">
+               <children>
+                  <ImageView fx:id="black2" fitHeight="35.0" fitWidth="35.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Text fx:id="BlackPlayerName" layoutX="20.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BlackPlayer" wrappingWidth="122.32568359375">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="BlackScore" layoutX="150.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BScore" wrappingWidth="55.658935546875">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Label fx:id="displayText" alignment="CENTER" contentDisplay="CENTER" layoutX="-46.0" layoutY="381.0" prefHeight="77.0" prefWidth="248.0" style="-fx-background-color: #707070; -fx-background-radius: 22;" textAlignment="CENTER" textFill="WHITE" visible="false" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="StartButton" layoutX="136.0" layoutY="309.0" mnemonicParsing="false" onAction="#onClickButton" prefHeight="20.0" prefWidth="60.0" style="-fx-background-radius: 22; -fx-background-color: #1c8200;" text="Start" textFill="WHITE" wrapText="true">
+               <font>
+                  <Font name="Tahoma Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="passTurnBtn" disable="true" layoutX="136.0" layoutY="290.0" mnemonicParsing="false" onAction="#onClickPassTurn" prefHeight="20.0" prefWidth="60.0" style="-fx-background-radius: 22; -fx-background-color: #ff9000;" text="Pass" visible="false">
+               <font>
+                  <Font name="Tahoma Bold" size="12.0" />
+               </font></Button>
+            <Button fx:id="resetButton" disable="true" layoutX="136.0" layoutY="328.0" mnemonicParsing="false" onAction="#onClickResetButton" prefHeight="20.0" prefWidth="60.0" style="-fx-background-radius: 22; -fx-background-color: #f93e44;" text="Reset" visible="false">
+               <font>
+                  <Font name="Tahoma Bold" size="12.0" />
+               </font></Button>
+            <Text fx:id="TurnTime" layoutX="51.0" layoutY="326.0" strokeType="OUTSIDE" strokeWidth="0.0" text="00:00:00" textAlignment="CENTER" wrappingWidth="70.3253173828125">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Text fx:id="GameTimer" layoutX="-44.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Timer" wrappingWidth="93.6588134765625">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Text>
+            <Pane layoutX="-27.0" layoutY="290.0" prefHeight="60.0" prefWidth="60.0" style="-fx-background-color: #D0B4A0;">
+               <children>
+                  <ImageView fx:id="white" fitHeight="50.0" fitWidth="100.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+                  <ImageView fx:id="black" fitHeight="50.0" fitWidth="57.0" layoutX="5.0" layoutY="5.0" pickOnBounds="true" preserveRatio="true" visible="false">
+                     <image>
+                        <Image url="@Black.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Pane layoutX="-37.0" layoutY="479.0" prefHeight="40.0" prefWidth="40.0" style="-fx-background-color: #D0B4A0;">
+               <children>
+                  <ImageView fx:id="white2" fitHeight="35.0" fitWidth="35.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@White.png" />
+                     </image>
+                     <viewport>
+                        <Rectangle2D />
+                     </viewport>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Text fx:id="WhitePlayerName" fill="WHITE" layoutX="19.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WhitePlayer" wrappingWidth="123.6588134765625">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text fx:id="WhiteScore" fill="WHITE" layoutX="150.0" layoutY="505.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WScore" wrappingWidth="60.3255615234375">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Separator layoutX="-59.0" orientation="VERTICAL" prefHeight="640.0" prefWidth="6.0" />
+         </children>
+      </Pane>
+   </right>
+   <left>
+      <Separator orientation="VERTICAL" prefHeight="607.0" prefWidth="11.0" BorderPane.alignment="CENTER" />
+   </left>
+</BorderPane>

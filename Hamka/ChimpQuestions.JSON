@@ -1,0 +1,229 @@
+{
+	"questions": [
+		{
+			"question": "What design pattern restricts the instantiation of a class to one 'single' instance?",
+			"answers": [
+				"Proxy",
+				"Factory",
+				"Singleton",
+				"Observe"
+			],
+			"correct_ans": "3",
+			"level": "1",
+			"team": "Chimp"
+		},
+		{
+			"question": "Software engineering refers to:",			
+			"answers": [
+				"Software designing",
+				"Software tests and QA",
+				"The whole life cycle of software",
+				"Backend and frontend developing"
+			],			
+			"correct_ans": "3",
+			"level": "1",
+			"team": "Chimp"
+		},
+		{
+			"question": "What includes life cycle of software?",			
+			"answers": [
+				"Requirements, Development, Implementation, Singelton",
+				"Requirements, Development, Testing, Implementation",
+				"Requirements, Development, Testing",
+				"Requirements, Development ,Implementation"
+			],
+			"correct_ans": "2",
+			"level": "2",
+			"team": "Chimp"	
+		},
+		{
+			"question": "What is the main difference between the Waterfall and the Scrum approach?",
+			"answers": [
+				"The waterfall is performed in iterations and Scrum performed without iterations",
+				"Scrum is not flexible like the Waterfall methodology",
+				"The waterfall is performed sequentially and Scrum performed iteratively",
+				"There is no differences"
+			],
+			"correct_ans": "3",
+			"level": "3",
+			"team": "Chimp"		
+		},
+		{
+			"question": "Which of the following came from the Agile methodology?",			
+			"answers": [
+				"Process that helps teams provide quick feedback on their project",
+				"Doing it once and doing it right",
+				"Releasing early and often with a collaborative and self-managing team",
+				"The core practices are visualizing the workflow"
+			],
+			"correct_ans": "1",
+			"level": "2",
+			"team": "Chimp"			
+		},
+		{
+			"question": "What is the major advantage of Agile?",			
+			"answers": [
+				"Enables sequential development",
+				"Allows agile development that adjusted to customer",
+				"Allows test driven development",
+				"There is no major advantage to agile"
+			],
+			"correct_ans": "2",
+			"level": "2",
+			"team": "Chimp"			
+		},
+		{
+			"question": "A software will respond within 2 seconds. This is an example of:",
+			"answers": [
+				"Functional Requirement",
+				"Non-Functional Requirement",
+				"Both Non-Functional Requirements and Functional Requirement",
+				"None of the above"
+			],			
+			"correct_ans": "2",
+			"level": "1",
+			"team": "Chimp"
+		},
+		{
+			"question": "In Agile methodology:",
+			"answers": [
+				"Documentation requirements is always up to date",
+				"Documentation requirements includes very detailed content of project",
+				"Documentation requirements is not usually up to date",
+				"Documentation requirements is usually up to date once in month"
+			],
+			
+			"correct_ans": "3",
+			"level": "4",
+			"team": "Chimp"
+		},
+		{
+			"question": "TDD process activities start in:",			
+			"answers": [
+				"Write a test for functionality and implement as an automated test",
+				"identifying the increment of functionality that is required",
+				"Write functional requirements",
+				"Write Non-Functional Requirements"
+			],
+			"team": "Chimp",
+			"level": "4",
+			"correct_ans": "1"
+		},
+		{
+			"question": "In Agile when sprint is finish, we:",			
+			"answers": [
+				"Begin immediately the next sprint",
+				"Rest until receiving feedback from the client",
+				"begin the next sprint until receiving feedback from the client",
+				"Perform retrospective on sprint performance"
+			],
+			"correct_ans": "4",
+			"level": "3",
+			"team": "Chimp"
+			
+		},
+		{
+			"question": "Which from the follwoing is NOT software architecture’s Element",			
+			"answers": [
+				"Processing",
+				"Data, also referred as information or state",
+				"Interaction",
+				"Comments"
+			],
+			"correct_ans": "4",
+			"level": "3",
+			"team": "Chimp"
+			
+		},
+		{
+			"question": "Which from the follwoing is true",			
+			"answers": [
+				"Maintenance does not normally involve major changes to the system’s architecture",
+				"Maintenance is not suppose to have changes in the system",
+				"Maintaining a software usually done before it has put in use",
+				"Maintenance it is just fixing bugs"
+			],
+			"correct_ans": "1",
+			"level": "3",
+			"team": "Chimp"
+			
+		},
+		{
+			"question": "Which from the follwoing is not a type of maintenance",			
+			"answers": [
+				"Fault repairs “Corrective Maintenance”",
+				"Environmental adaptation “Adaptive Maintenance”",
+				"Functionality addition and modification “Perfective Maintenance”",
+				"System usage requirements"
+			],
+			"correct_ans": "4",
+			"level": "3",
+			"team": "Chimp"
+			
+		},
+		{
+			"question": "What is the main types of reviews?",			
+			"answers": [
+				"Informal between co-workers",
+				"A formal which is performed by executives, and informal between co-workers",
+				"A formal which is performed by co-workers, and informal",
+				"informal"
+			],
+			"correct_ans": "2",
+			"level": "1",
+			"team": "Chimp"
+			
+		},
+		{
+			"question": "What is the Differences between Black Box Testing and White Box Testing",			
+			"answers": [
+				"They are the same",
+				"The difference is with the way you checking",
+				"In black box testing the item is not known to the tester, and in the with box testing it is",
+				"White box is verifying testing and black box is validating"
+			],
+			"correct_ans": "3",
+			"level": "2",
+			"team": "Chimp"
+			
+		},
+		{
+			"question": "What is the reviews objectives",			
+			"answers": [
+				"Detect errors",
+				"Informal meeting for knowledge transfer",
+				"Product approval",
+				"All the answers are correct"
+			],
+			"correct_ans": "4",
+			"level": "1",
+			"team": "Chimp"
+			
+		},
+		{
+			"question": "What is Software Architecture?",			
+			"answers": [
+				"Guide how to build a specifec software",
+				"Helps the users to see the software better",
+				"One of the most popular design patterns",
+				"A software system’s architecture is the set of principal design decisions about the system"
+			],
+			"correct_ans": "4",
+			"level": "1",
+			"team": "Chimp"
+			
+		},
+		{
+			"question": "What is the difference between walkthrough and inspection?",
+			"answers": [
+				"In inspection examining the product and in walkthrough we guiding the participants",
+				"In inspection we are not examining the product and in walkthrough we guiding the  participants",
+				"In walkthrough examining the product and in inspection we guiding the participants ",
+				"There is no difference"
+			],
+			"correct_ans": "1",
+			"level": "3",
+			"team": "Chimp"			
+		}
+	]
+}

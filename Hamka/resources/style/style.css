@@ -1,0 +1,63 @@
+.pane{
+    -fx-background-image: url("/pics/bg3.jpg");
+    -fx-background-size: 955.0 560.0;
+    -fx-background-position: center center;
+    
+}
+
+.tab-pane {
+    -fx-tab-max-height: 0.0 ;
+    
+} 
+.tab-pane .tab-header-area {
+    visibility: hidden ;
+}
+
+#transparent{
+	
+	-fx-background-color: rgba(50.0, 50.0, 50.0, 0.5); 
+	
+}
+.scroll-pane > .viewport {
+   -fx-background-color: transparent;
+}
+
+
+
+
+.table-view {
+    -fx-base: white;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent derive(-fx-base, 80.0%) transparent;
+}
+
+
+.table-view .table-column {
+  -fx-alignment: CENTER-LEFT;
+}
+
+
+
+
+.table-view.column-header-background {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 19.0;
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: gray;
+    -fx-alignment: center-left;
+    -fx-opacity: 1.0;
+}
+.deleteBtn{
+	  -fx-graphic: url("/pics/Delete_15px.png");
+	
+}
